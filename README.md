@@ -13,11 +13,11 @@ Em seguida, acesse o diretório do projeto:
 Faça o build da imagem:  
 **`docker-compose build`**  
 
-Instale as dependências do projeto:  
-**`docker exec bossabox-vuttr composer install`**  
-
 Inicie os serviços:  
 **`docker-compose up -d`**  
+
+Instale as dependências do projeto:  
+**`docker exec bossabox-vuttr composer install`**  
 
 Execute o teste inicial:  
 **`docker exec bossabox-vuttr composer test`**  
